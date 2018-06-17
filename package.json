@@ -1,7 +1,7 @@
 {
-  "name": "ts-boilerplate",
-  "version": "0.0.0",
-  "description": "boilerplate for TypeScript project",
+  "name": "locus-react",
+  "version": "0.1.0",
+  "description": "A simple wrapping React component for tracking a DOM element's position",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/soul-codes/ts-boilerplate",
@@ -27,5 +27,9 @@
     "typescript": "^2.9.1",
     "webpack": "^4.12.0",
     "webpack-serve": "^1.0.4"
+  },
+  "peerDependencies": {
+    "locus-dom": "^0.1.1",
+    "react": "^16.4.1"
   }
 }

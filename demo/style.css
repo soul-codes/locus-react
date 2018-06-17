@@ -1,0 +1,21 @@
+.hoverable {
+  width: 300px;
+  height: 300px;
+  background-color: lightgreen;
+}
+
+.hoverable:hover {
+  width: 400px;
+  height: 400px;
+}
+
+.target {
+  width: 300px;
+  height: 300px;
+  background-color: lightblue;
+}
+
+.hoverable:hover ~ .target {
+  margin-top: 50px;
+  margin-left: 50px;
+}

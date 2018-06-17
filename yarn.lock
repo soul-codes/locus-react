@@ -3077,6 +3077,10 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
+locus-dom@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/locus-dom/-/locus-dom-0.1.1.tgz#14cf31732fbd91886e38a5fe354f3faa0fbe5e91"
+
 lodash._reinterpolate@~3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
